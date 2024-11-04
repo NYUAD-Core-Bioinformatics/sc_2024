@@ -28,6 +28,8 @@ A laptop with min 8GB of ram, and conda ( https://anaconda.org/anaconda/conda ) 
 We use conda ( https://www.anaconda.com/download/success ) to build the environment, so make sure it's installed on your machine. You can use the command: 
 
 ```bash
+git clone https://github.com/NYUAD-Core-Bioinformatics/sc_2024.git
+cd sc_2024
 conda env create -f env/environment.yml
 conda activate sc_2024
 jupyter-lab --ip=0.0.0.0
@@ -35,6 +37,8 @@ jupyter-lab --ip=0.0.0.0
 if you are on an M1-4 processor use this instead :
 
 ```bash
+git clone https://github.com/NYUAD-Core-Bioinformatics/sc_2024.git
+cd sc_2024
 CONDA_SUBDIR=osx-64 conda env create -f env/environment.yml
 conda activate sc_2024
 jupyter-lab --ip=0.0.0.0
