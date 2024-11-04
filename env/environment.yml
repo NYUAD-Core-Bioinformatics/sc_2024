@@ -1,0 +1,27 @@
+name: sc_2024
+channels:
+ - conda-forge
+ - bioconda
+ - r
+ - nodefaults
+dependencies:
+ - python=3.10
+ - scanpy 
+ - jupyterlab 
+ - mamba 
+ - r-base 
+ - r-irkernel 
+ - r-ggplot2 
+ - r-pheatmap 
+ - bioconductor-enhancedvolcano
+ - bioconductor-variancepartition
+ - bioconductor-sva 
+ - bioconductor-deseq2
+ - bioconductor-clusterprofiler
+ - bioconductor-annotationdbi
+ - bioconductor-org.hs.eg.db
+ - ipywidgets 
+ - python-igraph 
+ - leidenalg
+ - scvi-tools
+ - scikit-misc
